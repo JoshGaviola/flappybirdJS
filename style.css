@@ -14,11 +14,13 @@ body {
   }
   #bird {
     width: 50px;
-    height: 50px;
-    background-color: yellow;
+    height: 39px;
+    background-image: url('./bird/b0.png'); /* Replace with your bird image */
+    background-size: contain;
     position: absolute;
     bottom: 50%;
     left: 50px;
+    transform: translate(0, 50%);
   }
   .pipe {
     width: 80px;
