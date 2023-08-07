@@ -1,6 +1,7 @@
 const bird = document.getElementById('bird');
 const gameContainer = document.getElementById('game-container');
 const canvasHeight = gameContainer.clientHeight; // Add this line to get canvas height
+
 let birdY = 150;
 let birdVelocity = 0;
 let gameStarted = false; // Add a gameStarted flag
